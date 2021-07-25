@@ -27,8 +27,6 @@ var randomVid = [
   '/vids/The Payback.mp4',
   '/vids/Lets Groove.mp4',
   
-  
-  
 
 ];
 var video = document.getElementById("movie");
