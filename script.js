@@ -22,9 +22,11 @@ var randomVid = [
   '/vids/Burn Rubber.mp4',
   '/vids/Mary Jane.mp4',
   '/vids/Get Down Tonight.mp4',
-  '/vids/Suerfly.mp4',
+  '/vids/Superfly.mp4',
   '/vids/Got to Give it Up.mp4',
-  '/vids/The Paybackp.mp4',
+  '/vids/The Payback.mp4',
+  '/vids/Lets Groove.mp4',
+  
   
   
 
