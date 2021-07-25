@@ -28,6 +28,7 @@ var randomVid = [
   '/vids/Lets Groove.mp4',
   '/vids/Slipping Into Darkness.mp4',
   '/vids/Back Stabbers.mp4',
+  '/vids/Couldnt Get It Right.mp4',
   
 
 ];

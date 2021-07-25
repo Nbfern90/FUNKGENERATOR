@@ -15,7 +15,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 1283px;
-  background-image: url("/1210564.png");
+  margin-top: 25px;
   height: 100px;
   color: rgb(45, 116, 120);
   font-size: 30px;
@@ -38,13 +38,18 @@ header h1 {
   border-radius: 30px;
   border: 2px solid rgb(45, 116, 120);
 }
+
+button:hover {
+  cursor: pointer;
+}
+
 .movie-mover {
   display: flex;
   align-items: center;
 }
 
 img {
-  margin-top: 50px;
+  margin-bottom: 75px;
 }
 
 .left-boot {
