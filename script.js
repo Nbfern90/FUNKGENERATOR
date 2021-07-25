@@ -9,11 +9,25 @@ Should have:
 
 
 var randomVid = [
-  'https://www.dailymotion.com/embed/video/x73nl0r?autoplay=1',
-  'https://www.dailymotion.com/embed/video/xcmwfl?autoplay=1',
-  'https://www.dailymotion.com/embed/video/x13lkim?autoplay=1',
-  'https://www.dailymotion.com/embed/video/x5nvpm?autoplay=1',
-  'https://www.dailymotion.com/embed/video/xibmm?autoplay=1"'
+  '/vids/Cisco Kid.mp4',
+  '/vids/Gap Band.mp4',
+  '/vids/Just Begun.mp4',
+  '/vids/Let it Whip.mp4',
+  '/vids/Move On Up.mp4',
+  '/vids/Parliment.mp4',
+  '/vids/Rock Steady.mp4',
+  '/vids/Superstition.mp4',
+  '/vids/Stretch.mp4',
+  '/vids/Do it right.mp4',
+  '/vids/Burn Rubber.mp4',
+  '/vids/Mary Jane.mp4',
+  '/vids/Get Down Tonight.mp4',
+  '/vids/Suerfly.mp4',
+  '/vids/Got to Give it Up.mp4',
+  '/vids/The Paybackp.mp4',
+  
+  
+
 ];
 var video = document.getElementById("movie");
 
@@ -23,7 +37,7 @@ var vidIndex = Math.floor(Math.random()*randomVid.length);
 
 var shuffle = randomVid[vidIndex];
 
-//document.getElementById("movie").src =shuffle;
+
 video.src = shuffle;
 console.log(video.src);
 }
