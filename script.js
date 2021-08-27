@@ -1,10 +1,3 @@
-/*Creat a website that generators random funk videos.
-Should have:
-- button that generates the new video
-  -button should say "Get Funked Up"
--header or somekind that asks"You Tryin' to Get Funked up
--animation of Bootsy that spirals out onclick before the video starts each time you
--mad funk design*/
 
 
 
@@ -28,7 +21,7 @@ var randomVid = [
   '/vids/Lets Groove.mp4',
   '/vids/Slipping Into Darkness.mp4',
   '/vids/Back Stabbers.mp4',
-  '/vids/Couldnt Get It Right.mp4',
+  '/vids/Couldnt Get It Right.mp4',       
   
 
 ];
@@ -42,7 +35,7 @@ var shuffle = randomVid[vidIndex];
 
 
 video.src = shuffle;
-console.log(video.src);
+console.log(video.src);                  
 }
 
 
