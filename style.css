@@ -8,6 +8,7 @@
 body {
   background-image: url("/1210564.png");
   max-width: 1283px;
+  margin: 0 auto;
 }
 
 header {
@@ -36,11 +37,12 @@ header h1 {
   color: rgb(45, 116, 120);
   font-size: 30px;
   border-radius: 30px;
-  border: 2px solid rgb(45, 116, 120);
+  border: 3px solid rgb(45, 116, 120);
 }
 
 button:hover {
   cursor: pointer;
+  background-color: rgb(223, 183, 49);
 }
 
 .movie-mover {
