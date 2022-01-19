@@ -21,7 +21,12 @@ var randomVid = [
   '/vids/Slipping Into Darkness.mp4',
   '/vids/Back Stabbers.mp4',
   '/vids/Couldnt Get It Right.mp4',
-  '/vids/Flashlight.mp4',       
+  '/vids/Flashlight.mp4',
+  '/vids/Hollywood Swinging.mp4',
+  '/vids/Live it up.mp4',
+  '/vids/Fantastic Voyage.mp4',
+  '/vids/Machine Gun.mp4',
+  '/vids/Get down on it.mp4',       
   
 ];
 
@@ -57,7 +62,12 @@ if (randomVid.length === 0){
   '/vids/Slipping Into Darkness.mp4',
   '/vids/Back Stabbers.mp4',
   '/vids/Couldnt Get It Right.mp4',
-  '/vids/Flashlight.mp4',       
+  '/vids/Flashlight.mp4',
+  '/vids/Hollywood Swinging.mp4',
+  '/vids/Live it up.mp4',
+  '/vids/Fantastic Voyage.mp4',
+  '/vids/Machine Gun.mp4',
+  '/vids/Get down on it.mp4',       
   )
 }
 
