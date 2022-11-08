@@ -6,16 +6,15 @@
   font-family: "Shrikhand", cursive;
 }
 body {
-  background-image: url("/1210564.png");
-  max-width: 1283px;
-  margin: 0 auto;
+  background-image: url("/img/1210564.png");
 }
 
+/*HEADER DESIGN*/
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1283px;
+  width: 100%;
   margin-top: 25px;
   height: 100px;
   color: rgb(45, 116, 120);
@@ -23,6 +22,24 @@ header {
 }
 header h1 {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/*CONTENT DESIGN*/
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-column{
+  display: flex;
+  flex-direction: column;
+}
+
+#movie{
+width:700px ;
+height: 500px;
+  margin-top: 0;
 }
 
 .btn-container {
@@ -45,19 +62,46 @@ button:hover {
   background-color: rgb(223, 183, 49);
 }
 
-.movie-mover {
-  display: flex;
-  align-items: center;
-}
-
 img {
   margin-bottom: 75px;
 }
 
-.left-boot {
+.right-boot {
   transform: rotate(-18deg);
+  margin-right: 2rem;
 }
 
-.right-boot {
+.left-boot {
   transform: rotate(18deg);
+  margin-left: 2rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media(max-width:1240px){
+  .center-column{
+    width:100%
+  }
+  #movie{
+      width: 100%;
+      height: auto;
+    }
+  img{
+    width: 20%;
+
+  }
+}
+
+@media(max-width:870px){
+  header{
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 3.5rem;
+  }
+}
+
+@media(max-width:600px){
+  img{
+    display: none;
+  }
 }
