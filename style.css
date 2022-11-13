@@ -108,3 +108,9 @@ img {
     display: none;
   }
 }
+
+@media(max-width:432px){
+  header{
+    margin-bottom:4rem;
+  }
+}
