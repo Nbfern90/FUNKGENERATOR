@@ -6,7 +6,7 @@
 
 ## Background
 
-The goal was to create a shuffle player that would loop through all avaiable videos before starting over.As it would be I happen to be listening to a lot of Funk and Funk influenced music at the time, thus the idea of FUNKGENERATOR was born.
+The goal was to create a shuffle player that would loop through all avaiable videos before starting over. As it would be I happen to be listening to a lot of Funk and Funk influenced music at the time, thus the idea of FUNKGENERATOR was born.
 
 ## Technologies
 
