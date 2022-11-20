@@ -11,6 +11,7 @@ The goal was to create a shuffle player that would loop through all avaiable vid
 ## Technologies
 
 - HTML, CSS, Javascript
+- Deployed on https://www.netlify.com/
 
 ## Functionality
 
